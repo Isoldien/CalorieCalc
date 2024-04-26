@@ -10,7 +10,7 @@ int main(void)
     float height, weight, age, BMR; // Intialise variables
     char gender[7]; // Intalise string, user should input either Male or Female
     
-    printf("Enter Height(cm), Weight(kg), Age(yrs), and Gender (""Male or Female""): "); // Ask user for input
+    printf("Enter Height(cm), Weight(kg), Age(yrs), and Gender (""Male or Female""):  "); // Ask user for input
     scanf("%fcm%fkg%fyrs%s", &height, &weight, &age, &gender); // Store input in respective variables
 
     // printf("Height: %.0fcm\nWeight: %.0fkg\nAge: %.0f years old\nGender: %s\n", height, weight, age, gender); // Test to see if varibles are stored correctly
@@ -28,7 +28,7 @@ int main(void)
 
     int activityLevel;
     float TDEE;
-    printf("How active are you (1. Not active, 2. Slightly Active, 3. Active, 4. Very Active, 5. Extra Active)?: "); // Ask for activity level
+    printf("How active are you (1. Not active, 2. Slightly Active, 3. Active, 4. Very Active, 5. Extra Active)?:  "); // Ask for activity level
     scanf("%d", &activityLevel); // Store input in variable "activityLevel"
     // printf("%d", activityLevel); // Test to see if variable "activityLevel" is correct
     switch(activityLevel){
@@ -55,6 +55,7 @@ int main(void)
         default:
             printf("Activity level out of range\n");
     }
+    // Prints out all variables
     printf("Your Height is %.0fcm\nYour Weight is: %.0fkg\nYour Age is: %.0f years old\nYour Gender is: %s\nYour BMR is: %.0f Calories\nYour TDEE is: %.0f Calories\n\a", height, weight, age, gender, BMR, TDEE);
     return 0;
 }
