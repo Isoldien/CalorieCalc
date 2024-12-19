@@ -11,7 +11,7 @@ int main(void)
     char gender[7]; // Intalise string, user should input either Male or Female
     
     printf("Enter Height(cm), Weight(kg), Age(yrs), and Gender (""Male or Female""):  "); // Ask user for input
-    scanf("%fcm%fkg%fyrs%s", &height, &weight, &age, &gender); // Store input in respective variables
+    scanf("%fcm %fkg %fyrs %s", &height, &weight, &age, &gender); // Store input in respective variables
 
     // printf("Height: %.0fcm\nWeight: %.0fkg\nAge: %.0f years old\nGender: %s\n", height, weight, age, gender); // Test to see if varibles are stored correctly
 
