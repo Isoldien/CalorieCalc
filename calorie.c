@@ -1,6 +1,10 @@
-// Author: Habib
-// Name: calorie.c
-// Purpose: Takes Height, Weight, Age, and Gender from user and provides their Basal Metabolic Rate based on their Gender
+/**
+    * @author: Habibur Rahman (Isoldien)
+    * @version: v3 
+    * 
+    *
+/*
+
 
 #include <stdio.h>
 #include <string.h>
